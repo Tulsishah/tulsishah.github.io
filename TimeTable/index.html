@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="space.css">
+<script src="space.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+</head>
+<header>
+</header>
+<body>
+<div class ="container">
+    <div class="elements">
+        <div class="days">
+            Days
+         </div>
+        <button id="star" onclick="star(id)">Stars</button>
+        <button id="bk" onclick="star(id)">Blackholes</button>
+        <button id="at">Asteroids</button>
+        <button id="sc">Scientists</button>
+        <button >Space Agencies</button>
+        <button >Planets</button>
+        <button >Satellites</button>
+        <button >Threats</button>
+        <button >Threats</button>
+        <button >Threats</button>
+        <button >Threats</button>
+        <button >Threats</button>
+        <button >Threats</button>
+        <button >Threats</button>
+    </div>
+    <div class="cover" id="sunday">
+        <div class="pannel">
+            <script>
+                var d = new Date();
+                var n = d.getDay();
+                var x = document.createElement("IMG");
+                if(n==0)
+                {
+                    x.setAttribute("src", "https://media2.giphy.com/media/26BRynKeJEweP1r4Q/giphy.gif");
+                    x.setAttribute("width", "700");
+                    x.setAttribute("height", "600");
+                    x.setAttribute("id","Imagev")
+                    x.setAttribute("alt", "The Pulpit Rock");
+                    document.body.appendChild(x);
+                }
+                else
+                {
+                    x.remove();
+                }
+            </script>
+         </div>
+        <div class="pannel" id="Star_Details">
+            <div class="days">
+                Monday Lectures 
+             </div>
+            <script>
+                
+                var d = new Date();
+                var n = d.getDay();
+                
+                if(n==1)
+                {
+                    var x=document.getElementById("Star_Details");
+                    x.style.display= "block";
+                    Imagev.remove();
+                }
+                
+            </script>
+            
+            <div class="new">
+                
+                <div class="time">
+                <h3>8:30 to 9:30</h3>
+                </div>
+                <div class="sub">
+                    <button id="substar" onclick=" window.open('http://google.com','_blank')">star</button>
+                    <button>star</button>
+                    <button>star</button>
+                    <button>star</button>
+                </div>
+           </div>
+
+          
+           <div class="new">
+                
+            <div class="time">
+            <h3>8:30 to 9:30</h3>
+            </div>
+            <div class="sub">
+                <button id="substar" onclick=" window.open('http://google.com','_blank')">star</button>
+                <button>star</button>
+                <button>star</button>
+                <button>star</button>
+            </div>
+            
+       </div>
+          
+        <div class="new">
+            <div class="days">
+                Monday Lectures
+             </div> 
+            <div class="time">
+            <h3>8:30 to 9:30</h3>
+            </div>
+            <div class="sub">
+                <button id="substar" onclick=" window.open('http://google.com','_blank')">star</button>
+                <button>star</button>
+                <button >star</button>
+                <button >star</button>
+            </div>
+       </div>
+    </div>
+    <div class="pannel" id="bk_Details">
+        <script>
+            var d = new Date();
+            var n = d.getDay();
+            if(n==1)
+            {
+                var x=document.getElementById("bk_Details");
+                x.style.display= "block";
+            }
+        </script>
+        <div class="days">
+           Tuesday Lectures
+        </div>
+        <div class="new">
+            
+            <div class="time">
+            <h3>8:30 to 9:30</h3>
+            </div>
+            <div class="sub">
+                <button id="substar" onclick=" window.open('http://google.com','_blank')">star</button>
+                <button>star</button>
+                <button>star</button>
+                <button>bk</button>
+            </div>
+       </div>
+      
+    <div class="new">
+        <div class="time">
+        <h3>8:30 to 9:30</h3>
+        </div>
+        <div class="sub">
+            <button id="substar" onclick=" window.open('http://google.com','_blank')">star</button>
+            <button>star</button>
+            <button >star</button>
+            <button >star</button>
+        </div>
+   </div>
+</div>
+
+
+            
+        
+    </div>
+    
+</div>
+</body>
+</html>
+
