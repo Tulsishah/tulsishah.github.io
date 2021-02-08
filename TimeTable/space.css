@@ -104,6 +104,11 @@ button:focus { outline: none; }
   
   
 }
+.smartphone .content {
+  width: 360px;
+  height: 640px;
+  background: white;
+}
 
 #Imagev{
   margin-left: 500px;
