@@ -96,7 +96,7 @@ button:focus { outline: none; }
 }
 
 .cover{
- 
+  overflow: hidden;
   margin-left: 550px;
   border-right: 1px solid gray;
   text-align: center;
