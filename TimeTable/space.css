@@ -74,7 +74,7 @@ button:focus { outline: none; }
   position: relative;
   display:block;
   text-align: center;
-  width: 500px;
+  width: auto;
   border-left: 2px solid grey;
 
   border-bottom: 2px solid white ;
